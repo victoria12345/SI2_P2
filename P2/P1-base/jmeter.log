@@ -1,0 +1,39 @@
+2020-03-30 21:09:19,278 INFO o.a.j.u.JMeterUtils: Setting Locale to es_ES
+2020-03-30 21:09:19,295 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_ES', using 'es'
+2020-03-30 21:09:19,295 INFO o.a.j.JMeter: Loading user properties from: /home/jose/Escritorio/apache-jmeter-5.2.1/bin/user.properties
+2020-03-30 21:09:19,295 INFO o.a.j.JMeter: Loading system properties from: /home/jose/Escritorio/apache-jmeter-5.2.1/bin/system.properties
+2020-03-30 21:09:19,296 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-03-30 21:09:19,296 INFO o.a.j.JMeter: Version 5.2.1
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: java.version=1.8.0_242
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: os.name=Linux
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: os.arch=amd64
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: os.version=5.3.0-42-generic
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: java.awt.headless=null
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: Max memory     =1804599296
+2020-03-30 21:09:19,297 INFO o.a.j.JMeter: Available Processors =8
+2020-03-30 21:09:19,302 INFO o.a.j.JMeter: Default Locale=español (España)
+2020-03-30 21:09:19,303 INFO o.a.j.JMeter: JMeter  Locale=español (España)
+2020-03-30 21:09:19,303 INFO o.a.j.JMeter: JMeterHome=/home/jose/Escritorio/apache-jmeter-5.2.1
+2020-03-30 21:09:19,303 INFO o.a.j.JMeter: user.dir  =/home/jose/Escritorio/Uni/4/2_cuatri/SI_II/Practicas/SI2_P2/P2/P1-base
+2020-03-30 21:09:19,303 INFO o.a.j.JMeter: PWD       =/home/jose/Escritorio/Uni/4/2_cuatri/SI_II/Practicas/SI2_P2/P2/P1-base
+2020-03-30 21:09:19,303 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: Jose FullName: Jose
+2020-03-30 21:09:19,474 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-03-30 21:09:19,502 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-03-30 21:09:19,503 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-03-30 21:09:19,555 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-03-30 21:09:21,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-30 21:09:21,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-30 21:09:21,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-30 21:09:21,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-30 21:09:21,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-30 21:09:21,211 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-30 21:09:21,493 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-03-30 21:09:21,494 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/jose/Escritorio/apache-jmeter-5.2.1/bin/proxyserver.jks
+2020-03-30 21:09:21,610 INFO o.a.j.s.FileServer: Default base='/home/jose/Escritorio/Uni/4/2_cuatri/SI_II/Practicas/SI2_P2/P2/P1-base'
+2020-03-30 21:09:21,907 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-30 21:09:21,908 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-03-30 21:09:21,908 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-30 21:09:21,908 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-30 21:09:21,929 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
