@@ -1,0 +1,197 @@
+[2020-03-31T08:57:26.842-0700] [glassfish 4.1] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670246842] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2020-03-31T08:57:27.552-0700] [glassfish 4.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670247552] [levelValue: 800] [[
+  Portable JNDI names for EJB VisaDAOBean: [java:global/P1-ejb/P1-ejb/VisaDAOBean!ssii2.visa.VisaDAORemote, java:global/P1-ejb/P1-ejb/VisaDAOBean!ssii2.visa.VisaDAOLocal]]]
+
+[2020-03-31T08:57:27.553-0700] [glassfish 4.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670247553] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB VisaDAOBean: [VisaDAOBean#ssii2.visa.VisaDAORemote, VisaDAOBean]]]
+
+[2020-03-31T08:57:27.614-0700] [glassfish 4.1] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670247614] [levelValue: 800] [[
+  WELD-000900: 2.2.13 (Final)]]
+
+[2020-03-31T08:57:28.039-0700] [glassfish 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248039] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2020-03-31T08:57:28.359-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Interceptor] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248359] [levelValue: 900] [[
+  WELD-001700: Interceptor annotation class javax.ejb.PostActivate not found, interception based on it is not enabled]]
+
+[2020-03-31T08:57:28.360-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Interceptor] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248360] [levelValue: 900] [[
+  WELD-001700: Interceptor annotation class javax.ejb.PrePassivate not found, interception based on it is not enabled]]
+
+[2020-03-31T08:57:28.499-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248499] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:57:28.506-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248506] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:57:28.514-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670248514] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:57:29.435-0700] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249435] [levelValue: 800] [[
+  Loading application [P1-ejb#P1-ejb-cliente.war] at [/P1-ejb-cliente]]]
+
+[2020-03-31T08:57:29.437-0700] [glassfish 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249437] [levelValue: 800] [[
+  Loading application P1-ejb done in 6,532 ms]]
+
+[2020-03-31T08:57:29.455-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249455] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:57:29.633-0700] [glassfish 4.1] [INFO] [AS-WSMETROGLUE-10010] [javax.enterprise.webservices.metroglue] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249633] [levelValue: 800] [[
+  Web service endpoint deployment events listener registered successfully.]]
+
+[2020-03-31T08:57:29.643-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249643] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:57:29.659-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249659] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:57:29.695-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249695] [levelValue: 800] [[
+  Webservice Endpoint deployed VisaDAOWS
+ listening at address at http://si2srv01:8080/P1-ws-ws/VisaDAOWSService.]]
+
+[2020-03-31T08:57:29.696-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249696] [levelValue: 800] [[
+  Webservice Endpoint deployed DBTester
+ listening at address at http://si2srv01:8080/P1-ws-ws/DBTesterService.]]
+
+[2020-03-31T08:57:29.698-0700] [glassfish 4.1] [INFO] [AS-WSMETROGLUE-10001] [javax.enterprise.webservices.metroglue] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249698] [levelValue: 800] [[
+  Loading WS-TX Services. Please wait.]]
+
+[2020-03-31T08:57:29.725-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249725] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:57:29.994-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249994] [levelValue: 800] [[
+  Webservice Endpoint deployed CoordinatorPortTypePortImpl
+ listening at address at http://si2srv01:8080/__wstx-services/CoordinatorPortType11.]]
+
+[2020-03-31T08:57:29.994-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249994] [levelValue: 800] [[
+  Webservice Endpoint deployed RegistrationPortTypeRPCPortImpl
+ listening at address at http://si2srv01:8080/__wstx-services/RegistrationPortTypeRPC11.]]
+
+[2020-03-31T08:57:29.995-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249995] [levelValue: 800] [[
+  Webservice Endpoint deployed RegistrationPortTypeImpl
+ listening at address at http://si2srv01:8080/__wstx-services/RegistrationPortTypeRPC.]]
+
+[2020-03-31T08:57:29.996-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249996] [levelValue: 800] [[
+  Webservice Endpoint deployed CoordinatorPortTypeImpl
+ listening at address at http://si2srv01:8080/__wstx-services/CoordinatorPortType.]]
+
+[2020-03-31T08:57:29.996-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249996] [levelValue: 800] [[
+  Webservice Endpoint deployed RegistrationRequesterPortTypeImpl
+ listening at address at http://si2srv01:8080/__wstx-services/RegistrationRequesterPortType.]]
+
+[2020-03-31T08:57:29.997-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249997] [levelValue: 800] [[
+  Webservice Endpoint deployed RegistrationRequesterPortTypePortImpl
+ listening at address at http://si2srv01:8080/__wstx-services/RegistrationRequesterPortType11.]]
+
+[2020-03-31T08:57:29.997-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249997] [levelValue: 800] [[
+  Webservice Endpoint deployed ParticipantPortTypeImpl
+ listening at address at http://si2srv01:8080/__wstx-services/ParticipantPortType.]]
+
+[2020-03-31T08:57:29.998-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670249998] [levelValue: 800] [[
+  Webservice Endpoint deployed ParticipantPortTypePortImpl
+ listening at address at http://si2srv01:8080/__wstx-services/ParticipantPortType11.]]
+
+[2020-03-31T08:57:33.002-0700] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670253002] [levelValue: 800] [[
+  Loading application [wstx-services] at [/__wstx-services]]]
+
+[2020-03-31T08:57:33.004-0700] [glassfish 4.1] [INFO] [AS-WSMETROGLUE-10002] [javax.enterprise.webservices.metroglue] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670253004] [levelValue: 800] [[
+  WS-TX Services successfully started.]]
+
+[2020-03-31T08:57:33.397-0700] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670253397] [levelValue: 800] [[
+  Loading application [P1-ws-ws] at [/P1-ws-ws]]]
+
+[2020-03-31T08:57:33.398-0700] [glassfish 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1585670239537] [timeMillis: 1585670253398] [levelValue: 800] [[
+  Loading application P1-ws-ws done in 3,960 ms]]
+
+[2020-03-31T08:57:33.399-0700] [glassfish 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1585670253399] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  4.1.2  (1) startup time : Felix (1,583ms), startup services(13,932ms), total(15,515ms)]]
+
+[2020-03-31T08:57:33.547-0700] [glassfish 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=14 _ThreadName=RunLevelControllerThread-1585670239472] [timeMillis: 1585670253547] [levelValue: 800] [[
+  Grizzly Framework 2.3.23 started in: 31ms - bound to [/0.0.0.0:7676]]]
+
+[2020-03-31T08:57:33.635-0700] [glassfish 4.1] [INFO] [NCLS-JMX-00024] [javax.enterprise.system.jmx] [tid: _ThreadID=74 _ThreadName=Thread-21] [timeMillis: 1585670253635] [levelValue: 800] [[
+  Creating a SecureRMIServerSocketFactory @ 0.0.0.0 with ssl config = GlassFishConfigBean.org.glassfish.grizzly.config.dom.Ssl]]
+
+[2020-03-31T08:57:33.668-0700] [glassfish 4.1] [WARNING] [NCLS-JMX-00020] [javax.enterprise.system.jmx] [tid: _ThreadID=74 _ThreadName=Thread-21] [timeMillis: 1585670253668] [levelValue: 900] [[
+  All SSL cipher suites disabled for network-listener(s).  Using SSL implementation specific defaults]]
+
+[2020-03-31T08:57:33.668-0700] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=74 _ThreadName=Thread-8] [timeMillis: 1585670253668] [levelValue: 800] [[
+  SSLParams =org.glassfish.admin.mbeanserver.ssl.SSLParams@280f87]]
+
+[2020-03-31T08:57:33.674-0700] [glassfish 4.1] [INFO] [] [] [tid: _ThreadID=74 _ThreadName=Thread-8] [timeMillis: 1585670253674] [levelValue: 800] [[
+  SSLParams =org.glassfish.admin.mbeanserver.ssl.SSLParams@280f87]]
+
+[2020-03-31T08:57:33.677-0700] [glassfish 4.1] [WARNING] [NCLS-JMX-00020] [javax.enterprise.system.jmx] [tid: _ThreadID=74 _ThreadName=Thread-21] [timeMillis: 1585670253677] [levelValue: 900] [[
+  All SSL cipher suites disabled for network-listener(s).  Using SSL implementation specific defaults]]
+
+[2020-03-31T08:57:33.725-0700] [glassfish 4.1] [INFO] [NCLS-JMX-00025] [javax.enterprise.system.jmx] [tid: _ThreadID=74 _ThreadName=Thread-21] [timeMillis: 1585670253725] [levelValue: 800] [[
+  SSLServerSocket /0.0.0.0:8686 and [SSL: ServerSocket[addr=/0.0.0.0,localport=8686]] created]]
+
+[2020-03-31T08:57:33.806-0700] [glassfish 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1585670253806] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@bd2039 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@ab1508.]]
+
+[2020-03-31T08:57:34.615-0700] [glassfish 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=74 _ThreadName=Thread-21] [timeMillis: 1585670254615] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://si2srv01:8686/jndi/rmi://si2srv01:8686/jmxrmi]]
+
+[2020-03-31T08:57:48.292-0700] [glassfish 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=41 _ThreadName=admin-listener(1)] [timeMillis: 1585670268292] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2020-03-31T08:58:14.849-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670294849] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:14.882-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670294882] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:14.944-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670294944] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:14.958-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670294958] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:15.105-0700] [glassfish 4.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295105] [levelValue: 800] [[
+  Portable JNDI names for EJB VisaDAOBean: [java:global/P1-ejb/P1-ejb/VisaDAOBean!ssii2.visa.VisaDAORemote, java:global/P1-ejb/P1-ejb/VisaDAOBean!ssii2.visa.VisaDAOLocal]]]
+
+[2020-03-31T08:58:15.109-0700] [glassfish 4.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295109] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB VisaDAOBean: [VisaDAOBean#ssii2.visa.VisaDAORemote, VisaDAOBean]]]
+
+[2020-03-31T08:58:15.176-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295176] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:58:15.183-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295183] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:58:15.196-0700] [glassfish 4.1] [WARN] [] [org.jboss.weld.Event] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295196] [levelValue: 900] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2020-03-31T08:58:15.443-0700] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295443] [levelValue: 800] [[
+  Loading application [P1-ejb#P1-ejb-cliente.war] at [/P1-ejb-cliente]]]
+
+[2020-03-31T08:58:15.492-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=44 _ThreadName=admin-listener(4)] [timeMillis: 1585670295492] [levelValue: 800] [[
+  P1-ejb was successfully deployed in 765 milliseconds.]]
+
+[2020-03-31T08:58:26.709-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306709] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:26.719-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306719] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:26.731-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306731] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2020-03-31T08:58:26.768-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306768] [levelValue: 800] [[
+  Webservice Endpoint deployed DBTester
+ listening at address at http://si2srv01:8080/P1-ws-ws/DBTesterService.]]
+
+[2020-03-31T08:58:26.769-0700] [glassfish 4.1] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306769] [levelValue: 800] [[
+  Webservice Endpoint deployed VisaDAOWS
+ listening at address at http://si2srv01:8080/P1-ws-ws/VisaDAOWSService.]]
+
+[2020-03-31T08:58:26.947-0700] [glassfish 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306947] [levelValue: 800] [[
+  Loading application [P1-ws-ws] at [/P1-ws-ws]]]
+
+[2020-03-31T08:58:26.970-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=43 _ThreadName=admin-listener(3)] [timeMillis: 1585670306970] [levelValue: 800] [[
+  P1-ws-ws was successfully deployed in 273 milliseconds.]]
+
+[2020-03-31T08:59:18.567-0700] [glassfish 4.1] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=26 _ThreadName=http-listener-1(1)] [timeMillis: 1585670358567] [levelValue: 800] [[
+  visiting unvisited references]]
